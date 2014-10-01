@@ -9,7 +9,7 @@ $dirlist = getFileList("img");
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="superslides.css">
+	<link rel="stylesheet" type="text/css" href="vendors/superslides.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script type="text/javascript" src="vendors/jquery.superslides.js"></script>
 	<script type="text/javascript" src="script.js"></script>
@@ -31,11 +31,13 @@ $dirlist = getFileList("img");
 			<?php endforeach; ?>
 
 		</ul>
-		<nav class="slides-navigation">
-			<a href="#" class="next">Next</a>
-		    <a href="#" class="prev">Previous</a>
-		</nav>
+		  <nav class="slides-navigation">
+    <a href="#" class="next">Next</a>
+    <a href="#" class="prev">Previous</a>
+  </nav>
+  
 	</div>
+
 
 </body>
 </html>
